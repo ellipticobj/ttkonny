@@ -3,7 +3,7 @@ import sys
 import tkinter as tk
 import warnings
 from logging import getLogger
-from tkinter import ttk
+from ttkbootstrap import ttk
 from typing import Any, Dict, List, Optional, Tuple, Union
 
 from thonny import get_workbench, ui_utils

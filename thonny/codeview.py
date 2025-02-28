@@ -7,8 +7,8 @@ import sys
 import time
 import tkinter as tk
 from logging import getLogger
-from tkinter import messagebox
-from typing import Dict, Union  # @UnusedImport
+from typing import Dict, Union
+from ttkbootstrap import messagebox
 
 from thonny import get_workbench, roughparse, tktextext, ui_utils
 from thonny.common import TextRange
@@ -16,7 +16,7 @@ from thonny.languages import tr
 from thonny.tktextext import EnhancedText
 from thonny.ui_utils import EnhancedTextWithLogging, ask_string, compute_tab_stops
 
-_syntax_options = {}  # type: Dict[str, Union[str, int]]
+_syntax_options: Dict[str, Union[str, int]] = {}
 # BREAKPOINT_SYMBOL = "•" # Bullet
 # BREAKPOINT_SYMBOL = "○" # White circle
 BREAKPOINT_SYMBOL = "●"  # Black circle

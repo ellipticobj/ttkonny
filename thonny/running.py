@@ -23,7 +23,7 @@ from abc import ABC, abstractmethod
 from logging import getLogger
 from threading import Thread
 from time import sleep
-from tkinter import messagebox, ttk
+from ttkbootstrap import messagebox, ttk
 from typing import (  # @UnusedImport; @UnusedImport
     Any,
     Callable,

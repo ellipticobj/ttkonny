@@ -4,7 +4,7 @@ import ast
 import configparser
 import datetime
 import os.path
-import tkinter as tk
+import ttkbootstrap as tk
 from configparser import ConfigParser
 from logging import exception, getLogger
 from typing import Any, Dict

@@ -1,4 +1,4 @@
-import tkinter as tk
+import ttkbootstrap as tk
 import traceback
 from logging import getLogger
 from typing import List, Optional, Tuple, Union

@@ -1,7 +1,7 @@
 import os.path
-import tkinter as tk
+import ttkbootstrap as tk
 from logging import getLogger
-from tkinter import ttk
+from ttkbootstrap import ttk
 
 from thonny import is_portable, languages, ui_utils
 

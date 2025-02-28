@@ -1,6 +1,6 @@
 import math
-import tkinter as tk
-from tkinter import ttk
+import ttkbootstrap as tk
+from ttkbootstrap import ttk
 
 from thonny import get_workbench
 

@@ -2,11 +2,11 @@
 import os.path
 import re
 import time
-import tkinter as tk
+import ttkbootstrap as tk
 import warnings
 from _tkinter import TclError
 from logging import exception, getLogger
-from tkinter import messagebox, simpledialog, ttk
+from ttkbootstrap import messagebox, simpledialog, ttk
 from typing import List, Literal, Optional, Union, cast
 
 from thonny import get_runner, get_workbench

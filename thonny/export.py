@@ -1,5 +1,5 @@
-import tkinter as tk
-from tkinter import ttk
+import ttkbootstrap as tk
+from ttkbootstrap import ttk
 
 from thonny.languages import tr
 from thonny.ui_utils import CommonDialog

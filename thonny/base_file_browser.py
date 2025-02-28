@@ -2,9 +2,9 @@ import os.path
 import shutil
 import time
 import tkinter as tk
-from abc import ABC, abstractmethod
+from abc import ABC
 from logging import getLogger
-from tkinter import messagebox, simpledialog, ttk
+from ttkbootstrap import messagebox, simpledialog, ttk
 from typing import Any, Dict, List, Optional, Tuple
 
 from thonny import get_runner, get_workbench, misc_utils, tktextext

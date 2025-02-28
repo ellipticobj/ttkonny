@@ -7,13 +7,13 @@ import sys
 import textwrap
 import threading
 import time
-import tkinter as tk
+import ttkbootstrap as tk
 import tkinter.font
 import traceback
 from _tkinter import TclError
 from dataclasses import dataclass
 from logging import getLogger
-from tkinter import filedialog, messagebox, ttk
+from ttkbootstrap import filedialog, messagebox, ttk
 from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Union  # @UnusedImport
 
 from thonny import get_workbench, misc_utils, tktextext

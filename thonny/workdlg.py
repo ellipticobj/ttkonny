@@ -4,9 +4,9 @@ import signal
 import subprocess
 import threading
 import time
-import tkinter as tk
+import ttkbootstrap as tk
 from logging import getLogger
-from tkinter import messagebox, ttk
+from ttkbootstrap import messagebox, ttk
 from typing import Optional
 
 from thonny import tktextext

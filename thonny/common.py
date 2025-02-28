@@ -9,7 +9,6 @@ import dataclasses
 import os.path
 import site
 import sys
-import urllib.parse
 from collections import namedtuple
 from dataclasses import dataclass
 from logging import getLogger
@@ -121,7 +120,7 @@ class Record:
     def __eq__(self, other):
         # pylint: disable=unidiomatic-typecheck
 
-        if type(self) != type(other):
+        if type(self) is not type(other):
             return False
 
         if len(self.__dict__) != len(other.__dict__):
@@ -133,7 +132,7 @@ class Record:
             self_value = getattr(self, key)
             other_value = getattr(other, key)
 
-            if type(self_value) != type(other_value) or self_value != other_value:
+            if type(self_value) is not type(other_value) or self_value != other_value:
                 return False
 
         return True

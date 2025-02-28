@@ -12,14 +12,13 @@ import re
 import shutil
 import socket
 import sys
-import tkinter
-import tkinter as tk
+import ttkbootstrap as tk
 import tkinter.font as tk_font
 import traceback
 import webbrowser
 from logging import getLogger
 from threading import Thread
-from tkinter import messagebox, ttk
+from ttkbootstrap import messagebox, ttk
 from typing import Any, Callable, Dict, List, Optional, Sequence, Set, Tuple, Type, Union, cast
 from warnings import warn
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import tkinter as tk
+import ttkbootstrap as ttk
 import tkinter.font as tk_font
 
 from thonny import get_workbench, ui_utils
@@ -64,13 +64,13 @@ class VariablesFrame(MemoryFrame):
             self, master, ("name", "id", "value"), consider_heading_stripe=consider_heading_stripe
         )
 
-        self.tree.column("name", width=120, anchor=tk.W, stretch=False)
-        self.tree.column("id", width=450, anchor=tk.W, stretch=True)
-        self.tree.column("value", width=450, anchor=tk.W, stretch=True)
+        self.tree.column("name", width=120, anchor=ttk.W, stretch=False)
+        self.tree.column("id", width=450, anchor=ttk.W, stretch=True)
+        self.tree.column("value", width=450, anchor=ttk.W, stretch=True)
 
-        self.tree.heading("name", text=tr("Name"), anchor=tk.W)
-        self.tree.heading("id", text=tr("Value ID"), anchor=tk.W)
-        self.tree.heading("value", text=tr("Value"), anchor=tk.W)
+        self.tree.heading("name", text=tr("Name"), anchor=ttk.W)
+        self.tree.heading("id", text=tr("Value ID"), anchor=ttk.W)
+        self.tree.heading("value", text=tr("Value"), anchor=ttk.W)
 
         get_workbench().bind("ShowView", self._update_memory_model, True)
         get_workbench().bind("HideView", self._update_memory_model, True)

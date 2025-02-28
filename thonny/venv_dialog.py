@@ -2,8 +2,8 @@ import logging
 import os.path
 import subprocess
 import sys
-import tkinter as tk
-from tkinter import messagebox, ttk
+import ttkbootstrap as tk
+from ttkbootstrap import messagebox, ttk
 from typing import Optional
 
 from thonny import get_runner, get_workbench, ui_utils

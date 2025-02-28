@@ -2,12 +2,12 @@
 """Extensions for tk.Text"""
 import sys
 import time
-import tkinter
-import tkinter as tk
+import ttkbootstrap
+import ttkbootstrap as tk
 from logging import getLogger
-from tkinter import TclError
-from tkinter import font as tkfont
-from tkinter import ttk
+from ttkbootstrap import TclError
+from ttkbootstrap import font as tkfont
+from ttkbootstrap import ttk
 from typing import Optional
 
 logger = getLogger(__name__)
